@@ -1,10 +1,13 @@
 # -*- python3 -*-
 # File generated from public data - not subject to copyright
+# SPDX-FileCopyrightText: Public domain
+# SPDX-License-Identifier: CC0-1.0
+# fmt: off
 import datetime
 __all__ = ['dut1_data_start, dut1_offsets']
 dut1_data_start = datetime.datetime(1973, 1, 2, 0, 0)
 d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s = 'defghijklmnopqrs'
-dut1_offsets = ( # 19730102
+dut1_offsets = str( # 19730102
     s*18+r*31+q*29+p*28+o*30+n*36+m*40+l*39+k*33+j*31+i*31+h*18  # 19740119
     +r*19+q*38+p*32+o*31+n*33+m*48+l*45+k*37+j*33+i*34+h*15+r*22 # 19750225
     +q*34+p*33+o*34+n*37+m*49+l*45+k*36+j*32+i*36+h*7+r*28+q*33  # 19760402
@@ -29,5 +32,5 @@ dut1_offsets = ( # 19730102
     +l*119+k*84+j*217+i*126+h*176+g*97+f*91+e*52+o*116+n*98+m*70 # 20130821
     +l*133+k*91+j*91+i*77+h*140+g*91+f*84+e*70+d*34+n*72+m*76    # 20160130
     +l*66+k*53+j*56+i*105+h*77+g*45+q*25+p*63+o*91+n*154+m*105   # 20180920
-    +l*190+k*118+j*105+i*827+j*75+i*46                           # 20211204
+    +l*190+k*118+j*105+i*799+j*219                               # 20220212
 )
